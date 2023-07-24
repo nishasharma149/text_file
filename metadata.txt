@@ -1,0 +1,15 @@
+metadata = {
+    "Table Names": ["Customer", "Employee", "Invoice"],
+    "Customer": {
+        "Description": "This table has information about customer information.",
+        "Column Name in Customer Table": ["CustomerId", "FirstName", "LastName", "Company", "Address", "City", "State", "Phone", "PostalCode", "Email", "SupportRepId"],
+    },
+    "Employee": {
+        "Description": "This table has information about employee information.",
+        "Column Name in Employee Table": ["EmployeeId", "FirstName", "LastName", "JobTitle", "Department", "ManagerId"],
+    },
+    "Invoice": {
+        "Description": "This table has information about invoice information.",
+        "Column Name in Invoice Table": ["InvoiceId", "CustomerId", "EmployeeId", "Date", "Total"],
+    },
+}
